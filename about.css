@@ -172,6 +172,38 @@ hr {
     border-radius: 10px;
 }
 
+.articlediv { /*positioning & styling for three articles*/
+    text-align: center;
+    font-family: 'Segoe UI';
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #daeed1; /*chnages bg color for div block*/
+}
+
+.articlediv p em {
+    font-weight: bold;
+}
+        
+.article {
+    display: inline-block; /*makes all 3 aricles on same line*/
+    text-align: justify;
+    width: 300px;
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 7px;
+    background-color: rgb(250, 249, 245);
+    border-radius: 7px;
+}
+
+.article a {
+    margin-left: 75px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .thirddiv { /*positioning & styling for reference div block*/
     font-family: 'Segoe UI';
     text-align: justify;
