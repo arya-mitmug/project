@@ -1,0 +1,228 @@
+/*body-pagelink & footer, same as index.css*/
+
+body {
+    background-color: rgb(250, 249, 245);
+    padding: 0;
+    margin: 0;
+}
+
+.navall {
+    background-color: #daeed1;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+.navdiv {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#biglogo {
+    width: 150px;
+    margin: 0;
+    margin-left: 20px;
+}
+
+#textlogo {
+    position: absolute;
+    left: 50%;
+    width: 250px;
+    margin: 0 auto;     
+    transform: translateX(-50%);
+}
+
+#searchtext {
+    float: right;
+    text-align: justify;
+    width: 130px;
+    font-family: 'Segoe UI';
+    color: #488533;
+    border: 1.5px solid rgb(182, 202, 182);
+    border-radius: 15px;
+    background-color: white;
+    padding: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 30px;
+}
+
+hr {
+    width: 100%;
+    color: rgb(23, 131, 23);
+    size: 2px;
+    margin: 0;
+}
+
+.navlink {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.link {
+    display: inline-block;
+    width: 120px;
+    padding: 8px 10px;
+    margin: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: #488533;
+    border: 1px solid #488533;
+    border-radius: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    }
+
+.link:hover {
+    transform: translateY(-5px);
+    background-color: #488533;
+    color: white;
+}
+
+.link:active {
+    transform: translateY(-2px) scale(0.98);
+}
+
+#pagelink {
+    color: rgb(255, 255, 255);
+    background-color: #488533;
+    border-radius: 15px;
+}
+
+.firstdiv { /*positioning & styling for first div block*/
+    font-family: 'Segoe UI';
+    text-align: justify;
+    width: 990px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#firsth2 {
+    margin-bottom: 0px;
+    color: #488533;
+}
+
+.imagegallery { /*positioning & styling for the image gallery */
+    font-family: 'Segoe UI';
+    width: 990px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#bigpic { /* styling for the main big picture */
+    width: 620px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.sidepics { /*container & positioning for the smaller pictures*/
+    float: right;
+    display: flex; 
+    flex-direction: column; /*makes pictures stack vertically*/
+    gap: 10px; /*spacing between stacked images*/
+}
+
+.sidepics img { /*styling for the smaller pictures*/
+    width: 350px;
+    height: 200px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.seconddiv { /*positioning & styling for second block div*/
+    font-family: 'Segoe UI';
+    text-align: justify;
+    width: 970px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+#secondh2 {
+    margin-bottom: 4px;
+    color: #488533;
+}
+
+
+#secondp {
+    margin-top: 4px;
+}
+
+.seconddiv img {
+    float: right; /*moves it to side of text*/
+    overflow: auto;
+    width: 210px;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#contactsdiv {
+    text-align: center;
+    width: 350px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 20px;
+    border: 1.5px solid #488533; /*adds border, makes it look like box*/
+    border-radius: 10px;
+    background-color: #daeed1;
+}
+
+
+.thirddiv { /*positioning & styling for reference div block*/
+    font-family: 'Segoe UI';
+    text-align: justify;
+    width: 990px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#thirdh2 {
+    margin-bottom: 0px;
+    color: #488533;
+}
+
+ul li a { /*styling for reference links*/
+    color: black;
+    text-decoration: none;
+}
+
+#hrfooter {
+    margin-top: 40px;
+}
+
+.footer { 
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #daeed1;
+}
+
+#footertext1 {
+    margin-left: 20px;
+    font-weight: bold;
+    color: #488533;
+}
+
+#footertext2 {
+    float: right;
+    margin-right: 20px;
+    font-style: italic;
+}
