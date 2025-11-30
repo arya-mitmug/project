@@ -36,7 +36,7 @@ body {
     transform: translateX(-50%); /*aligns to center of screen*/
 }
 
-#searchtext {
+input {
     float: right; /*aligns to right of screen*/
     text-align: justify;
     width: 130px;

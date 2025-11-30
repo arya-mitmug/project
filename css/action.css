@@ -5,6 +5,8 @@ body {
     margin: 0;
 }
 
+/*header & nav*/
+
 header {
     background-color: #daeed1;
     position: fixed;
@@ -37,9 +39,8 @@ header {
     transform: translateX(-50%);
 }
 
-#searchtext {
+input {
     float: right;
-    text-align: justify;
     width: 130px;
     color: #488533;
     border: 1.5px solid rgb(182, 202, 182);
@@ -94,7 +95,7 @@ a:active {
     border-radius: 15px;
 }
 
-/*start here*/
+/*main articles*/
 
 article {
     width: 990px;  
@@ -107,6 +108,100 @@ article {
 article h2 {
     color: #488533;
 }
+
+#artgallery {
+    text-align: center;
+}
+
+#artgallery img{
+    display: inline-block;
+    margin: auto;
+    width: 300px;
+    padding-right: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#artgallery img:hover {
+    transform: scale(1.1) rotate(3deg);
+}
+
+#artaction {
+    width: 1100px;
+}
+
+#artaction h2 {
+    text-align: center;
+}
+
+#artaction div {
+    display: inline-block; 
+    text-align: justify;
+    width: 300px;
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 7px;
+    background-color: #daeed1;
+    border-radius: 7px;
+}
+
+#artaction a {
+    margin-left: 75px;
+    margin-bottom: 15px;
+    background-color: #bdddae;
+}
+
+#artaction a:hover {
+    background-color: #488533;
+}
+
+#artlocal h2 {
+    padding: 0;
+    margin: 0;
+}
+
+#artlocal p{
+    display: inline-block;
+    width: 420px;
+}
+
+#artlocal li {
+    font-size: larger;
+    font-weight: 500;
+}
+
+#artlocal ol {
+    display: inline-block;
+    width: 520px;
+}
+
+/*sprites*/
+
+#sprite1 {
+    display: inline-block;
+	background: url('../images/sprite.png') no-repeat -4px -19px;
+	width: 62px;
+	height: 62px;
+    transform: scale(0.7);
+}
+
+#sprite2 {
+    display: inline-block;
+    background: url('../images/sprite.png') no-repeat -70px -20px;
+	width: 62px;
+	height: 62px;
+    transform: scale(0.7);
+}
+
+#sprite3 {
+    display: inline-block;
+    background: url('../images/sprite.png') no-repeat -134px -19px;
+	width: 62px;
+	height: 62px;
+    transform: scale(0.7);
+}
+
 
 #artref { 
     text-align: justify;
@@ -134,7 +229,7 @@ article h2 {
     background-color: rgb(250, 249, 245);
 }
 
-/*end here*/
+/*footer*/
 
 #hrfooter{
     margin-top: 40px;

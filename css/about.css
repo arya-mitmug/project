@@ -38,9 +38,8 @@ body {
     transform: translateX(-50%);
 }
 
-#searchtext {
+input {
     float: right;
-    text-align: justify;
     width: 130px;
     font-family: 'Segoe UI';
     color: #488533;

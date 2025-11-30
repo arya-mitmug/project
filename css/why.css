@@ -5,6 +5,8 @@ body {
     margin: 0;
 }
 
+/*header & nav*/
+
 header {
     background-color: #daeed1;
     position: fixed;
@@ -37,9 +39,8 @@ header {
     transform: translateX(-50%);
 }
 
-#searchtext {
+input {
     float: right;
-    text-align: justify;
     width: 130px;
     color: #488533;
     border: 1.5px solid rgb(182, 202, 182);
@@ -64,7 +65,7 @@ hr {
 }
 
 
-a:not(.nostyle) {
+a:not(.nostyle) { /*pseudoclass*/
     display: inline-block;
     width: 120px;
     padding: 8px 10px;
@@ -75,10 +76,10 @@ a:not(.nostyle) {
     color: #488533;
     border: 1px solid #488533;
     border-radius: 15px;
-    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /*transition*/
 }
 
-a:hover {
+a:hover { 
     transform: translateY(-5px);
     background-color: #488533;
     color: white;
@@ -94,7 +95,7 @@ a:active {
     border-radius: 15px;
 }
 
-/*start here*/
+/*main articles*/
 
 article {
     width: 990px;  
@@ -112,7 +113,7 @@ article h2 {
     text-align: center;
 }
 
-#arttext h2:first-child { /*pseudoclass #1*/
+#arttext h2:first-child {
     font-style: italic;
     text-decoration: underline;
 }
@@ -133,7 +134,7 @@ article h2 {
     margin-bottom: 20px;
 }
         
-.website { 
+#artwebsites div { 
     display: inline-block; 
     text-align: justify;
     width: 300px;
@@ -162,7 +163,7 @@ article h2 {
     color: black;
     text-decoration: none;
     margin: 0;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; 
 }
 
 #artref a:hover {
@@ -171,7 +172,7 @@ article h2 {
     background-color: rgb(250, 249, 245);
 }
 
-/*end here*/
+/*footer*/
 
 #hrfooter {
     margin-top: 40px;
